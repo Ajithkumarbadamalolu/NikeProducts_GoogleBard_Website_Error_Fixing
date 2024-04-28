@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: linear-gradient(to right, #f7cace, #f79292);
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #fff;
+        }
+
+        h1 {
+            font-size: 2em;
+            margin: 0;
+            color: #000; /* Improved contrast ratio */
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #000;
+        }
+
+        main {
+            padding: 50px;
+        }
+
+        .product {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 50px;
+        }
+
+        .product img {
+            width: 300px;
+        }
+
+        h2, p {
+            margin: 10px 0;
+            color: #000; /* Improved contrast ratio */
+        }
+
+        .details {
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .details button {
+            background-color: #000;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            width: 400px;
+        }
+
+        form h2 {
+            margin-bottom: 20px;
+            color: #000; /* Improved contrast ratio */
+        }
+
+        label {
+            margin-bottom: 5px;
+            color: #000; /* Improved contrast ratio */
+        }
+
+        input[type="email"], input[type="text"] {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        /* Added rule for footer text */
+        footer p {
+            color: #000; /* Improved contrast ratio */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Just Do It.</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="product">
+            <img src="images/shoe.jpg" alt="Nike Shoe">
+            <h2>Air Jordan 1</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas aliquam, quam non interdum placerat, magna dui tincidunt leo, vitae molestie magna quam ac odio. Donec sed odio dui. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet magna.</p>
+            <div class="details">
+                <h3>More Details</h3>
+                <ul>
+                    <li>Color: Black/Red</li>
+                    <li>Material: Leather</li>
+                    <li>Size: 7-13</li>
+                </ul>
+                <button>Buy Now</button>
+            </div>
+        </section>
+
+        <form>
+            <h2>Join the Nike Family</h2>
+            
